@@ -4,21 +4,21 @@ const experiences = [
       strong: 'Fullstack Developer',
       p: 'Acqua Vero | 2023',
     },
-    text: 'descrição',
+    text: '<p>descrição</p>',
   },
   {
     summary: {
       strong: 'Fullstack Developer',
       p: 'CG Holding | 2022',
     },
-    text: 'descrição',
+    text: '<p>descrição</p>',
   },
   {
     summary: {
       strong: 'Fullstack Developer',
       p: 'GMG Ambiental | 2020',
     },
-    text: 'descrição',
+    text: '<p>descrição</p>',
   },
 ];
 
