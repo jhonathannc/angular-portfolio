@@ -15,7 +15,7 @@ import {
 })
 export class DialogProjectsComponent implements OnInit {
   constructor(
-    private dialogRef: MatDialogRef<DialogProjectsComponent>,
+    private _dialogRef: MatDialogRef<DialogProjectsComponent>,
     @Inject(MAT_DIALOG_DATA) private _data: IProject
   ) {}
 
@@ -26,6 +26,6 @@ export class DialogProjectsComponent implements OnInit {
   }
 
   public closeModal() {
-    return this.dialogRef.close();
+    return this._dialogRef.close();
   }
 }
